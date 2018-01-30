@@ -1,0 +1,128 @@
+/* General */
+
+html {
+  font-size: 18px;
+}
+
+body {
+  font-family: Arial;
+  line-height: 1.2;
+}
+
+.flex {
+  display: flex;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* Header */
+
+header{
+  position: fixed;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background-color: white;
+  height: 64px;
+  justify-content: space-between;
+}
+
+header .logo{
+  display: flex;
+  margin-left: 24px;
+  align-items: center;
+}
+
+header h3{
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+header span{
+  font-weight: normal;
+  color: grey;
+}
+
+nav li{
+  display: inline-block;
+  padding-right: 16px;
+  margin: auto 8 auto 8;
+  align: right;
+}
+
+nav .phone-menu{
+  display: none;
+}
+
+/* Main Header */
+
+.main-banner {
+  display: flex;
+  background-color: silver;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  padding-top: 64px;
+}
+
+.banner {
+  width: 60%;
+}
+
+.banner img{
+  overflow: hidden;
+  padding: 2rem 1.5rem;
+  width: 90%;
+}
+
+ .headline{
+  width: 40%;
+}
+
+.button {
+  display:inline-block;
+  margin-top: 2rem;
+  padding: 1rem 0rem;
+  width: 80%;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+/* Information section */
+
+.info{
+  display: flex;
+  width: 100%;
+}
+
+/* Start learning */
+
+/* Thesis */
+
+.thesis{
+  display: flex;
+  width: 100%;
+}
+
+.thesis h2{
+  padding: 32px 0px;
+}
+
+.banner video{
+  width: 60%;
+  padding: 2rem 1.5rem;
+}
