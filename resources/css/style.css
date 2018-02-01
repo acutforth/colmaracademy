@@ -111,6 +111,11 @@ nav .phone-menu{
   height: auto;
 }
 
+.info .image-caption{
+  padding-left: 1.5rem;
+  padding-bottom: 2rem;
+}
+
 .info .banner h2{
   padding-top: 2rem;
 }
@@ -156,20 +161,70 @@ nav .phone-menu{
 
 /* Start learning */
 
+.learn{
+  width: 100%;
+  background-color: silver;
+}
+
+.learn h2{
+  text-align: center;
+  padding: 2rem 0rem;
+}
+
+.learn .subjects {
+  display: flex;
+  padding: 2rem 4.5rem;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.learn .subjects .subject{
+  background-color: white;
+  overflow:hidden;
+  color: grey;
+  width: 30%;
+}
+
+.subject img{
+  height: auto;
+}
 
 
 /* Thesis */
 
-.thesis{
+.thesis-headline{
+  width: 100%;
+  text-align: center;
+  padding: 2rem 0rem;
+}
+
+.thesis {
   display: flex;
   width: 100%;
 }
 
-.thesis h2{
-  padding: 32px 0px;
+.banner video{
+  width: 90%;
+  padding: 2rem 1.5rem;
 }
 
-.banner video{
-  width: 60%;
-  padding: 2rem 1.5rem;
+.thesis .video-caption{
+  padding-left: 1.5rem;
+  padding-bottom: 2rem;
+}
+
+/* Footer */
+
+footer{
+  display: flex;
+  justify-content: space-between;
+  height: 4rem;
+  width: 100%;
+  border-top: 1px solid;
+  padding: 1.5rem 1rem;
+}
+
+.footer-nav{
+  padding-right: 1.5rem;
 }
