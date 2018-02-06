@@ -67,8 +67,36 @@ nav li{
   align: right;
 }
 
-nav .phone-menu{
+.phone-menu{
   display: none;
+}
+
+@media only screen and (max-width: 750px){
+
+ .menu {
+    display: none;
+  }
+
+  header .logo {
+    display: none;
+  }
+
+  .phone-menu {
+    display: flex;
+    align-items: center;
+    }
+
+  .phone-menu nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0rem 1rem;
+    }
+
+  .phone-menu img {
+    height: 1.5rem;
+    width: auto;
+    }
 }
 
 /* Main Header */
@@ -98,13 +126,48 @@ nav .phone-menu{
 }
 
 .button {
-  display:inline-block;
+  display: inline-block;
   margin-top: 2rem;
   padding: 1rem 0rem;
   width: 80%;
   background-color: black;
   color: white;
   text-align: center;
+}
+
+@media only screen and (max-width: 750px){
+
+  #banner {
+    display: flex;
+    align-items: center;
+  }
+
+  .main-banner {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .banner {
+    width: 100%;
+  }
+
+  .banner img {
+    width: 100%;
+    padding: 0rem;
+  }
+
+  .headline {
+    width: 100%;
+    padding: 2rem 1rem;
+  }
+
+  .headline p {
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
+  }
+
 }
 
 /* Information section */
