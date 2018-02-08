@@ -20,16 +20,19 @@ body {
 h1 {
   font-size: 3rem;
   font-weight: bold;
+  color: #1A2930;
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: 1.75rem;
   font-weight: bold;
+  color: #1A2930;
 }
 
 h3 {
   font-size: 1.5rem;
   font-weight: bold;
+  color: #1A2930;
 }
 
 /* Header */
@@ -53,11 +56,12 @@ header .logo{
 header h3{
   font-size: 1.5rem;
   font-weight: bold;
+  color: #1A2930;
 }
 
 header span{
   font-weight: normal;
-  color: grey;
+  color: #FBA100;
 }
 
 nav li{
@@ -65,6 +69,7 @@ nav li{
   padding-right: 16px;
   margin: auto 8 auto 8;
   align: right;
+  color: #1A2930;
 }
 
 .phone-menu{
@@ -103,7 +108,7 @@ nav li{
 
 .main-banner {
   display: flex;
-  background-color: silver;
+  background-color: #4A8DAC;
   width: 100%;
   align-items: center;
   justify-content: center;
@@ -123,6 +128,12 @@ nav li{
 
  .headline{
   width: 40%;
+  color: #1A2930;
+}
+
+.headline h1 {
+  color: white;
+  text-shadow: 2px 2px #1A2930;
 }
 
 .button {
@@ -130,8 +141,9 @@ nav li{
   margin-top: 2rem;
   padding: 1rem 0rem;
   width: 80%;
-  background-color: black;
+  background-color: #FBA100;
   color: white;
+  text-decoration: none;
   text-align: center;
 }
 
@@ -185,16 +197,18 @@ nav li{
 
 .info .banner h2{
   padding-top: 2rem;
+  color: #1A2930;
 }
 
 .info .banner p{
   padding-top: 1.5rem;
   font-size: 1.25rem;
+  color: #1A2930;
 }
 
-.info .banner span{
+.info .banner span p{
   padding-top: 0.5rem;
-  color: grey;
+  color: #99CED4;
 }
 
 .menu2 {
@@ -209,6 +223,15 @@ nav li{
   width: 100%;
   overflow: hidden;
   align-items: center;
+}
+
+.menu-item h3 p {
+  color: #1A2930;
+}
+
+.menu-item a {
+  color: #FBA100;
+  text-decoration: none;
 }
 
 .menu-item img {
@@ -269,7 +292,11 @@ nav li{
 
 .learn{
   width: 100%;
-  background-color: silver;
+  background-color: #4A8DAC;
+}
+
+.learn h2 {
+  color: white;
 }
 
 .learn h2{
@@ -290,7 +317,6 @@ nav li{
 .learn .subjects .subject{
   background-color: white;
   overflow:hidden;
-  color: black;
   width: 30%;
   text-decoration: none;
   margin: 1rem;
@@ -302,10 +328,16 @@ nav li{
 
 .subject .sub-info{
   margin: 1rem;
+
 }
 
 .subject .sub-info .course{
   padding: 8px 0px;
+  color: #4A8DAC;
+}
+
+.subject p{
+  color: #FBA100;
 }
 
 @media only screen and (max-width: 750px){
@@ -317,6 +349,9 @@ nav li{
     display: none;
   }
 
+  .learn h2 {
+    color: #1A2930;
+  }
 
   .sub-info p {
     display: none;
@@ -332,7 +367,7 @@ nav li{
 
   .learn .subjects .subject{
     width: 100%;
-    background-color: silver;
+    background-color: #FBA100;
     margin: 0.25rem;
   }
 
@@ -368,6 +403,16 @@ nav li{
   padding-bottom: 2rem;
 }
 
+.thesis p {
+  padding-top: 1rem;
+  color: #4A8DAC;
+}
+
+.menu2 p {
+  padding-top: 1rem;
+  color: #FBA100;
+}
+
 @media only screen and (max-width: 750px){
 
   .thesis .video-caption {
@@ -395,12 +440,17 @@ footer{
   justify-content: space-between;
   height: 4rem;
   width: 100%;
-  border-top: 1px solid;
+  border-top: 1px solid #1A2930;
   padding: 1.5rem 1rem;
+  color: #1A2930;
 }
 
 .footer-nav{
   padding-right: 1.5rem;
+}
+
+.footer-nav a {
+  color: #4A8DAC;
 }
 
 @media only screen and (max-width: 750px){
