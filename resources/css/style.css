@@ -344,7 +344,7 @@ nav li{
   color: #FBA100;
 }
 
-@media only screen and (max-width: 750px){
+@media only screen and (max-width: 900px){
 
   .learn {
     background-color: white;
