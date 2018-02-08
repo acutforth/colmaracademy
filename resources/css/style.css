@@ -69,7 +69,11 @@ nav li{
   padding-right: 16px;
   margin: auto 8 auto 8;
   align: right;
+}
+
+nav li a {
   color: #1A2930;
+  text-decoration: none;
 }
 
 .phone-menu{
