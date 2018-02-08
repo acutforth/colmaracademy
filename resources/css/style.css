@@ -133,7 +133,7 @@ nav li{
 
 .headline h1 {
   color: white;
-  text-shadow: 2px 2px #1A2930;
+  text-shadow: 2px 2px 1px #1A2930;
 }
 
 .button {
@@ -145,6 +145,7 @@ nav li{
   color: white;
   text-decoration: none;
   text-align: center;
+  border-radius: 10px;
 }
 
 @media only screen and (max-width: 750px){
@@ -198,6 +199,7 @@ nav li{
 .info .banner h2{
   padding-top: 2rem;
   color: #1A2930;
+  text-shadow: 2px 2px 1px #4A8DAC;
 }
 
 .info .banner p{
@@ -230,7 +232,7 @@ nav li{
 }
 
 .menu-item a {
-  color: #FBA100;
+  color: #99CED4;
   text-decoration: none;
 }
 
